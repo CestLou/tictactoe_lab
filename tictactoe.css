@@ -1,0 +1,39 @@
+.box1 {
+	background-color: #7F7972;
+}
+.box2{
+	background-color: #7F6A4F;
+}
+
+.div {
+	float:left;
+	width: 250px;
+	height:250px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.innerborder{
+	border-right: 4px dotted #000;
+	border-left: 4px dotted #000;
+}
+
+.topborder{
+	border-top: 4px dotted #000;
+}
+
+.outerdiv{
+	max-width: 758px;
+	height: 758px;
+	margin: 0px auto;
+	border:4px solid #000;
+}
+
+
+
+
+/*Making the boxes bigger, borders, etc*/
+.topleftbox{
+	/*width:900px;*/
+	border-right:3px solid #000;
+}

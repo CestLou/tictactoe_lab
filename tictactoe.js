@@ -1,7 +1,7 @@
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function() {
 	var allDivs = document.querySelectorAll('.div');
-	for (i = 0; i<allDivs.length; i++){	
-		allDivs[i].addEventListener('click', function(){ 
+	for (var i = 0; i<allDivs.length; i++){	
+		allDivs[i].addEventListener('click', function() { 
 		clickBehavior(this);
 		// document.querySelector('#makeitclick').innerHTML = "X";
 		});
@@ -20,5 +20,9 @@ var clickBehavior = function(theEl){
 	}
 }
 var reset = function() {
-
+	var allDivs = document.querySelectorAll('.div')
+	for (var i = 0; i < allDivs.length; i++) {
+		document.querySelector('#'+allDivs[i].id).innerText = ''
+	}
+	count = 0;
 }

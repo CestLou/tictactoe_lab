@@ -2,47 +2,28 @@
 <html>
 <head>
 	<title>TIC TAC TOE</title>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<link rel="stylesheet" type="css" href="tictactoe.css">
-	<script src="tictactoe.js"></script>
-<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<!-- // <script type="JS" src="tictactoe.js"></script> -->
+	<script src="jQuery.js"></script>
+<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </head>
 <body class="body">
 	<div class="container">
-		<div class="page-header" align="center">
-			<h1>Tic  Tac  Taco</h1> </div>
-		</div>
+		<h1 id="header">Tic  Tac  Taco</h1>
 		<div class="outerdiv" align="center">
-			<div class="div box1" id="box0">
-				
-			</div>
-			<div class="div box2 innerborder" id="box1">
-				
-			</div>
-			<div class="div box1" id="box2">
-				
-			</div>
-			<div class="div box2 topborder" id="box3">
-				
-			</div>
-			<div class="div box1 innerborder topborder" id="box4">
-				
-			</div>
-			<div class="div box2 topborder" id="box5">
-				
-			</div>
-			<div class="div box1 topborder" id="box6">
-				
-			</div>
-			<div class="div box2 innerborder topborder" id="box7">
-				
-			</div>
-			<div class="div box1 topborder center" id="box8">
-				
-			</div>
-			<!-- <button onclick="reset();" type="button" class="btn btn-link">Reset</button> -->
-			<div class="div">
+			<div class="gamePiece box1" id="box0"></div>
+			<div class="gamePiece box2 innerborder" id="box1"></div>
+			<div class="gamePiece box1" id="box2"></div>
+			<div class="gamePiece box2 topborder" id="box3"></div>
+			<div class="gamePiece box1 innerborder topborder" id="box4"></div>
+			<div class="gamePiece box2 topborder" id="box5"></div>
+			<div class="gamePiece box1 topborder" id="box6"></div>
+			<div class="gamePiece box2 innerborder topborder" id="box7"></div>
+			<div class="gamePiece box1 topborder center" id="box8"></div>
+			<div>
 			<button onclick="reset();" class="button">RESET</button>
 			</div>
 		</div>

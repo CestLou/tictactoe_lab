@@ -1,13 +1,21 @@
 .box1 {
-	background-color: #B6CCCB;
+	background-color: #000;
 }
 .box2{
-	background-color: #E3FFFE;
+	background-color: #000;
 }
+
+#header {
+	color:#5E7C7F;
+	text-align: center;
+	font-size: 50px;
+}
+
 .body {
 	min-height: 800px;
+	background-color: #B6C9CC;
 }
-.div {
+.gamePiece {
 	float:left;
 	width: 150px;
 	height:150px;
@@ -16,12 +24,12 @@
 }
 
 .innerborder {
-	border-right: 4px dashed #4F7F7B;
-	border-left: 4px dashed #4F7F7B;
+	border-right: 4px dashed #B6C9CC;
+	border-left: 4px dashed #B6C9CC;
 }
 
 .topborder {
-	border-top: 4px dashed #4F7F7B;
+	border-top: 4px dashed #B6C9CC;
 }
 
 .outerdiv {
@@ -35,12 +43,12 @@
 
 .button {
 	padding: 30px 150px 30px 150px;
+	margin:40px auto;
 	text-align: center;
-	margin: 20px;
 	font-size: 30px;
 	font-weight: bold;
-	background-color: #B6CCCA;
-	color: #4F7F7B;
+	background-color: #000;
+	color: #B6C9CC;
 
 }
 
